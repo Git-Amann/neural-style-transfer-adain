@@ -1,0 +1,23 @@
+# Large datasets
+content_data_full/
+style_data_small/
+style_data/
+content_data/
+content_data_small/
+val2017.zip
+*.zip
+style_data_full/
+
+# Virtual environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Large model files (optional - GitHub has 100MB limit per file)
+vgg_normalised.pth
+experiment/
+
+# Uploads folder (runtime generated)
+static/uploads/*
+!static/uploads/.gitkeep
